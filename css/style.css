@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-section{
+    width: 38%;
+    background: url(https://res.cloudinary.com/doivnxitm/image/upload/v1650210279/pexels-andres-ayrton-6578392_1_2_u9nukp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    color: white;
+}
+
+.form-section{
+    width: 62%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.image-section h2{
+    padding-bottom:8% 0% 60% 0%; 
+    display: flex;
+    justify-content: flex-end;
+    margin: 50%;
+    
+    
+}
+
+.image-section h3{
+   padding: 4px;
+   font-size: 16px;
+   margin: 50px;
+   
+
+   
+   
+
+}
+
+.page-section{
+    display: flex;
+}
+
+.inner-form{
+    /* border: 1px solid #ccc; */
+}
+
+h1{
+    font-family: 'Courier New';
+    color: rgb(0, 140, 255);
+    padding: 2%;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3%;
+}
+
+.form-row input[type="text"], .form-row input[email], .form-row select, .form-row input[type="password"], .form-row input[type="confirm password"]{
+    width: 100%;
+    padding:10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+.about{
+    padding: 12px;
+    border-radius: 4px;
+    height: 2.4em;
+    font-size: 16px;
+    
+}
+.about{
+    width: 100%;
+} 
+    
+
+
+.logo-section input[type="button"]{
+   padding: 12px;
+   background-color: rgb(0, 140, 255);
+   color: #ccc;
+   font-size: 16px;
+   margin-top: 10px;
+   width: 100%;
+   border-radius: 10px 0px 10px 0px;
+   justify-content: flex-end;
+   cursor: pointer;
+   border: none;
+    
+}
+
+.form-row input[type="button"]{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .input-box{
+    width: 48%;
+    
+}
+.radio-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
